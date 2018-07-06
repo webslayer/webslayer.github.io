@@ -22,6 +22,7 @@ header {
       background: url(hero.jpg);
       overflow: hidden;
       -webkit-filter:blur(0px);
+      background-repeat: repeat-x;
 }
 
 
