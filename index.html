@@ -4,7 +4,7 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <title>ACCENTURE</title>
+      <title>ACCURA</title>
       <link rel="stylesheet" href="style.css">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
       <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
@@ -12,7 +12,8 @@
 <body>
       <div class="wrapper">
             <header>
-
+              <section></section>
+                  
                   <nav>
 
                         <div class="menu-icon">
@@ -20,7 +21,7 @@
                         </div>
 
                         <div class="logo">
-                              ACCENTURE
+                              ACCURA
                         </div>
 
                         <div class="menu">
@@ -33,9 +34,10 @@
                         </div>
                   </nav>
 
-            </header>
 
-            <div class="content">
+
+</header>
+       <div class="content">
                   <p>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                   </p>
@@ -44,6 +46,31 @@
                   </p>
             </div>
       </div>
+
+      
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      
+
+
+
+      <script type="text/javascript">
+            $('header').mousemove(function(e){
+                  var moveX = (e.pageX * -1 / 15);
+                  var moveY = (e.pageY * -1 / 15);
+                  $(this).css('background-position', moveX + 'px ' + moveY + 'px')
+
+
+            })
+      </script>
+
+
+
+
+
+
+
+
+
 
       <script type="text/javascript">
 
@@ -69,6 +96,7 @@
 
 
       </script>
+      
 
 </body>
 </html>
